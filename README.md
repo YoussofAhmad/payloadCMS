@@ -85,20 +85,22 @@ frontend/
 
 ### Backend Setup
 1. **Clone the repository**:  
-   git clone <repository-url>
+   ```bash
+    git clone <repository-url>
    cd <project-folder>/backend
-
-2. **Install dependencies**:
+   ```
+3. **Install dependencies**:
+   ```bash
    npm install
-   
-4. **Set up environment variables**:
+   ```
+5. **Set up environment variables**:
    Create a `.env` file in the `backend` folder and add the following:
    ```env
    MONGO_URI=mongodb://localhost:27017/blog-platform
    PAYLOAD_SECRET=your-secret-key
    ```
 
-5. **Run the backend**:
+6. **Run the backend**:
    ```bash
    npm run dev
    ```
