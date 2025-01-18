@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "es6", "dom"],
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "declaration": true,
+      "noEmit": true,
+      "resolveJsonModule": true,
+      "module": "commonjs",
+      "strict": true,
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "include": ["src/**/*", "test-mongo.js"],
+    "exclude": ["node_modules", "dist"]
+}
